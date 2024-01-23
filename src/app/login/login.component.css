@@ -1,0 +1,49 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Prendre toute la hauteur de la vue */
+    background-color: #f2f2f2; /* Couleur de fond légère */
+    
+  }
+  
+  form {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère pour le formulaire */
+    background-color: white; /* Fond blanc pour le formulaire */
+    width: 300px; /* Largeur fixe pour le formulaire */
+  }
+  
+  form div {
+    margin-bottom: 15px; /* Espace entre les champs */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Rendre le label en gras */
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%; /* Largeur complète dans le formulaire */
+    padding: 8px;
+    border: 1px solid #ccc; /* Bordure légère */
+    border-radius: 4px; /* Bordures arrondies */
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Couleur de fond pour le bouton */
+    color: white; /* Texte blanc pour le bouton */
+    cursor: pointer; /* Style de curseur */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+  }
+  

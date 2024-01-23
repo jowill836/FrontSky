@@ -1,0 +1,12 @@
+<nav class="menu">
+    <ul>
+        <li><button (click)="onMenuSelect('all')">Skymap</button></li>
+        <li><button (click)="onMenuSelect('hottest')">Les plus chaudes</button></li>
+        <li><button (click)="onMenuSelect('closest')">Les plus proches</button></li>
+        <li><button (click)="onMenuSelect('brightest')">Les plus brillantes</button></li>
+        <li><button (click)="onMenuSelect('biggest')">Les plus grosses</button></li>
+        <li><button (click)="logout()">Déconnexion</button></li>
+    </ul>
+</nav>
+
+<app-star-map></app-star-map>
